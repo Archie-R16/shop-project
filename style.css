@@ -66,3 +66,32 @@ body {
     background-color: #2c71b8;
     color: white;
 }
+.search {
+    margin-top: 7px;
+    background-color: white;
+    border: 1px solid black;
+    width: 210px;
+    height: 35px;
+}
+.search-1 {
+    width: 205px;
+    height: 35px;
+    font-size: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.img {
+    width: 27px;
+    height: 27px;
+    background-color: #2c71b8;
+    transform: translate(178px,-32.5px);
+    z-index: 1;
+}
+.basket {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    z-index: 2;
+    transform: translate(240px,-32px);
+}
