@@ -6,7 +6,7 @@ body {
     background-image: url("imeges/patt.png");
 }
 .container {
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -14,18 +14,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 .col-3 {
     flex: 0 0 25%;
     max-width: 25%;
+    padding-top: 15px;
 }
 .col-6 {
     flex: 0 0 50%;
     max-width: 50%;
 }
 .logo {
-    margin-top: 7px;
+    margin-top: 15px;
 }
 .logo-1 {
     height: 45px;
@@ -46,6 +47,7 @@ body {
 }
 .menu {
     display: flex;
+    padding-top: 15px;
 }
 .menu li {
     width: 25%;
@@ -132,7 +134,7 @@ body {
     height: 40px;
     background-color: white;
     z-index: 2;
-    transform: translate(240px,-39px);
+    transform: translate(223px,-39px);
 }
 .icon {
     width: 20px;
@@ -278,5 +280,108 @@ input[type="checkbox"]:checked + label::before {
 .drob-menu:hover .drob-menu-2 {
     display: block;
 }
-
-
+.sub-menu-2 {
+    width: 885px;
+}
+.container-d {
+    /* width: 20%; */
+   
+}
+.row-d {
+    display: flex;
+    width: 885px;
+    /* width: 20%; */
+}
+.blok-1 {
+    width: 270px;
+    height: 650px;
+    margin: 15px 15px 15px 0;
+    border: 1px solid #fff;
+}
+.blok-2 {
+    width: 270px;
+    height: 650px;
+    border: 1px solid #fff;
+    margin: 15px;
+}
+.blok-3 {
+    width: 270px;
+    height: 650px;
+    margin: 15px;
+    border: 1px solid #fff;
+}
+.tv {
+    width: 268px;
+    height: 180px;
+    background-color: #fff;
+}
+.tv-1 {
+    width: 100px;
+    height: 90px;
+    margin-top: 45px;
+    margin-left: 80px;
+}
+.tv-2 {
+    width: 70px;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.png-1 {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #2c71b8;
+    z-index: 1;
+    transform: translate(234px,-137px);
+}
+.png-2 {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #2c71b8;
+    z-index: 1;
+    transform: translate(234px,-125px);
+}
+.frame {
+    padding: 3px;
+}
+.like {
+    padding: 4px;
+}
+.laptop {
+    width: 100px;
+    height: 60px;
+    margin-top: 55px;
+    margin-left: 90px;
+}
+.png-11 {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #2c71b8;
+    z-index: 1;
+    transform: translate(234px,-112px);
+}
+.png-22 {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #2c71b8;
+    z-index: 1;
+    transform: translate(234px,-100px);
+}
+.aipad {
+    width: 75px;
+    height: 100px;
+    margin-top: 28px;
+    margin-left: 100px;
+}
+.apll {
+    width: 50px;
+    height: 100px;
+    margin-top: 31px;
+    margin-left: 113px;
+}
+.androit {
+    width: 70px;
+    height: 100px;
+    margin-top: 31px;
+    margin-left: 112px;
+}
