@@ -242,31 +242,41 @@ input[type="checkbox"]:checked + label::before {
     font-size: 40px;
     padding-top: 40px;
 }
-.wid {
+.drob-menu {
+    float: right;
+    transform: translateY(-40px);
+    position: relative;
     width: 270px;
-    height: 37px;
-    border: 1px solid #fff;
-    transform: translate(626px,-15px);
-}
-.hig {
     height: 40px;
-    padding-top: 5px;
-    padding-left: 20px;
-}
-.menu-b {
-    color: #fff;
-    text-decoration: none;
-}
-.menu-g {
-    padding-left: 100px;
-}
-.submenu-l {
-    visibility: hidden;
-    position: absolute;
-    color: white;
+    border: 1px solid #fff;
     padding-top: 10px;
-    /* font-size: 21px; */
+    padding-left: 15px;
 }
-.ul-l {
-    width: 2270px;
+.pad {
+    padding-left: 110px;
 }
+.drob-menu-1 {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.drob-menu-2 {
+    display: none;
+    border: 1px solid #fff;
+    width: 270px;
+    margin-top: 12px;
+    margin-left: -16px;
+
+}
+.drob-menu-2>li {
+    padding:15px 0 15px 15px;
+}
+.drob-menu-2>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+.drob-menu:hover .drob-menu-2 {
+    display: block;
+}
+
+
