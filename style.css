@@ -283,14 +283,9 @@ input[type="checkbox"]:checked + label::before {
 .sub-menu-2 {
     width: 885px;
 }
-.container-d {
-    /* width: 20%; */
-   
-}
 .row-d {
     display: flex;
     width: 885px;
-    /* width: 20%; */
 }
 .blok-1 {
     width: 270px;
