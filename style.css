@@ -346,148 +346,107 @@ input[type="checkbox"]:checked + label::before {
 }
 .row-d {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 885px;
+    padding-top: 30px;
 }
 .blok-1 {
     width: 270px;
     height: 650px;
-    margin: 15px 15px 15px 0;
     border: 1px solid #fff;
 }
 .blok-2 {
     width: 270px;
     height: 650px;
     border: 1px solid #fff;
-    margin: 15px;
 }
 .blok-3 {
     width: 270px;
     height: 650px;
-    margin: 15px;
     border: 1px solid #fff;
 }
 .tv {
-    width: 268px;
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
     height: 180px;
     background-color: rgba(225, 225, 225, 0.75);
+}
+.ait {
+   display: flex;
+   align-items: center;
+   margin-left: 80px;
 }
 .tv-1 {
     width: 100px;
     height: 90px;
-    margin-top: 45px;
-    margin-left: 80px;
 }
-.tv-2 {
-    width: 70px;
-    height: 110px;
-    margin-top: 30px;
+.png-11 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.frame-1 {
+    height: 30px;
+    width: 30px;
+    border: 1px solid  #2c71b8;
+    padding: 5px;
+}
+.like-1 {
+    height: 30px;
+    width: 30px;
+    border: 1px solid  #2c71b8;
+    padding: 5px;
+    margin-top: 10px;
+}
+.ait-1 {
+    display: flex;
+    align-items: center;
     margin-left: 100px;
 }
-.png-1 {
-    width: 27px;
-    height: 27px;
-    border: 1px solid #2c71b8;
-    z-index: 1;
-    transform: translate(234px,-137px);
+.ait-2 {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
 }
-.png-2 {
-    width: 27px;
-    height: 27px;
-    border: 1px solid #2c71b8;
-    z-index: 1;
-    transform: translate(234px,-125px);
+.ait-3 {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
 }
-.png-2:hover {
-    background-color: #2c71b8;
+.ait-4 {
+    display: flex;
+    align-items: center;
+    margin-left: 105px;
 }
-.like:hover {
-    fill: #fff;
+.ait-5 {
+    display: flex;
+    align-items: center;
+    margin-left: 105px;
 }
-.frame {
-    padding: 3px;
+.oclok {
+    width: 55px;
+    height: 100px;
 }
-.like {
-    padding: 4px;
+.like-1:hover {
+    background-color: #fff;
 }
 .laptop {
     width: 100px;
     height: 60px;
-    margin-top: 55px;
-    margin-left: 90px;
-}
-.png-11 {
-    width: 27px;
-    height: 27px;
-    border: 1px solid #2c71b8;
-    z-index: 1;
-    transform: translate(234px,-120px);
-}
-.png-22 {
-    width: 27px;
-    height: 27px;
-    border: 1px solid #2c71b8;
-    z-index: 1;
-    transform: translate(234px,-109px);
-}
-.png-a11 {
-    width: 27px;
-    height: 27px;
-    border: 1px solid #2c71b8;
-    z-index: 1;
-    transform: translate(234px,-118px);
-}
-.png-b22 {
-    width: 27px;
-    height: 27px;
-    border: 1px solid #2c71b8;
-    z-index: 1;
-    transform: translate(234px,-106px);
-}
-.png-n11 {
-    width: 27px;
-    height: 27px;
-    border: 1px solid #2c71b8;
-    z-index: 1;
-    transform: translate(234px,-105px);
-}
-.png-m22 {
-    width: 27px;
-    height: 27px;
-    border: 1px solid #2c71b8;
-    z-index: 1;
-    transform: translate(234px,-94px);
-}
-.png-ner11 {
-    width: 27px;
-    height: 27px;
-    border: 1px solid #2c71b8;
-    z-index: 1;
-    transform: translate(234px,-112px);
-}
-.png-mad22 {
-    width: 27px;
-    height: 27px;
-    border: 1px solid #2c71b8;
-    z-index: 1;
-    transform: translate(234px,-100px);
 }
 .aipad {
-    width: 75px;
+    width: 60px;
     height: 100px;
-    margin-top: 28px;
-    margin-left: 100px;
 }
 .apll {
     width: 50px;
     height: 100px;
-    margin-top: 31px;
-    margin-left: 113px;
 }
 .androit {
-    width: 70px;
+    width: 65px;
     height: 100px;
-    margin-top: 31px;
-    margin-left: 112px;
 }
 .device {
     font-size: 25px;
