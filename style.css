@@ -41,6 +41,10 @@
   }
   .header {
     height: 100px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
     background-color: rgba(225, 225, 225, 0.75);
@@ -591,4 +595,16 @@
 .form-field input {
   height: 30px;
   width: 100%;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.slaider-block > div {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding: 150px 0 ;
 }
