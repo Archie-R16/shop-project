@@ -48,6 +48,7 @@
     display: flex;
     align-items: center;
     background-color: rgba(225, 225, 225, 0.75);
+    z-index: 10;
   }
   .menu {
     display: flex;
@@ -397,7 +398,7 @@
     border: 1px solid #2c71b8;
     padding: 5px;
   }
-  .like-1 {
+  .like {
     height: 30px;
     width: 30px;
     border: 1px solid #2c71b8;
@@ -449,8 +450,8 @@
     width: 65px;
     height: 100px;
   }
-  .like-1:hover {
-    background-color: #fff;
+  .like:hover, .btn{
+    background-color: red;
   }
   .frame-1:hover {
     background-color: #fff;
@@ -605,6 +606,15 @@
 .slaider-block > div {
   font-size: 50px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   color: white;
-  padding: 150px 0 ;
+  padding: 0 0 0 345px;
+}
+.free {
+  width: 400px;
+  height: 300px;
+}
+.product-quantity {
+  text-align: center;
 }
